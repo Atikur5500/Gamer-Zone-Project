@@ -260,6 +260,10 @@ footer{
 }
 /* Responsive */
 @media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     nav{
         flex-direction: column;
         padding: 10px;
