@@ -280,7 +280,6 @@ nav ul li a {
     /* Navbar */
     nav {
         flex-direction: column;
-        width: auto;
     }
 
     nav ul li {
@@ -296,7 +295,6 @@ nav ul li a {
     }
 
     .banner-content {
-        background-image: url('../Images/Group\ 14.png');
         padding: 10% 0;
         text-align: center;
         justify-content: center;
@@ -351,13 +349,14 @@ nav ul li a {
         width: 150px;
         height: 200px;
         position: absolute;
-        top: 600px;
+        top: 520px;
         left: 25px;
         z-index: 1;
     }
 
     .image-info {
         text-align: center;
+        padding-top: 30px;
         width: 100%;
     }
 
@@ -376,9 +375,7 @@ nav ul li a {
         place-items: center;
     }
     .games {
-        width: 400px;
         grid-template-columns: repeat(3, 1fr);
-        place-items: center;
     }
     .game-item{
         width: 125px;
